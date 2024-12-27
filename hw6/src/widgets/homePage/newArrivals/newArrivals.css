@@ -1,0 +1,43 @@
+.arrivalsCont{
+    width: 100%;
+}
+
+.arrivalsCont h2{
+    text-align: center;
+    margin: 72px 0 55px 0;
+    font-family: 'Integral CF Regular';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57px;
+}
+
+.arrivalsCont .flexItem{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 36px;
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;  
+    border-bottom: 1px solid #0000001A;
+    margin-bottom: 64px;
+}
+
+.button button{
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+    padding: 15px 80px;
+    background-color: #ffffff;
+    border: 1px solid #0000001A;
+    border-radius: 62px;
+    margin-bottom: 64px;
+    transition: .3s all;
+}
+
+.button button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}

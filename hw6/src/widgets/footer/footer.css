@@ -1,0 +1,99 @@
+.footer{
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 140px 100px 88px 100px;
+    position: relative;
+    height: 500px;
+    margin-top: 200px;
+}
+
+.subscribe{
+    box-sizing: border-box;
+    background-color: #000000;
+    padding: 43px 63px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    position: absolute;
+    top: -240px;
+    width: 100%;
+}
+
+.subscribe h2{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Integral CF Regular';
+    width: 551px;
+}
+
+.subscribe .form{
+    width: 350px;
+    position: relative;
+}
+
+.form input{
+    width: 100%;
+    padding: 12px 52px;
+    outline: none;
+    border-radius: 62px;
+    font-size: 16px;
+}
+
+.form_input{
+    position: relative;
+}
+
+.form_input img{
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form button{
+    width: 100%;
+    padding: 12px 88px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid transparent;
+    border-radius: 62px;
+    margin-top: 14px;
+    transition: .3s all;
+}
+
+.form button:hover{
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.footer .links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links .shopCo{
+    width: 248px;
+}
+
+.shopCo h2{
+    font-size: 33px;
+    font-weight: 700;
+    font-family: 'Integral CF Regular';
+    margin-bottom: 25px;
+}
+
+.shopCo p{
+    margin-bottom: 35px;
+}
+
+.links p{
+    color: #00000099;
+    font-size: 14px;
+}
+
+.shopCo .social{
+    display: flex;
+    justify-content: space-between;
+}
